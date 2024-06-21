@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import People from './components/RenderList/test01.tsx'
 import Students from './components/RenderList/test02.tsx'
+import StateDemo from './components/state/test01.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -22,7 +23,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Item name='Cocunat' isPacked={true}/> */}
      
     {/* <People/> */}
-    <Students/>
+    {/* <Students/> */}
+
+    <StateDemo/>
 
   </React.StrictMode>
 )
