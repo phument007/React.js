@@ -10,6 +10,9 @@ import Gallery from './components/state/test04.tsx'
 import ShowImg from './components/state/test05.tsx'
 import ChangeText from './components/state/test06.tsx'
 import ObjectState from './components/state/test07.tsx'
+import ArrayState from './components/state/test08.tsx'
+import ObjState from './components/state/test07-1.tsx'
+import ObjStateSingleHandleAlert from './components/state/test07-2.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* <App /> */}
@@ -38,6 +41,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
    {/* <Gallery/> */}
    {/* <ShowImg/> */}
    {/* <ChangeText/> */}
-   <ObjectState/>
+   {/* <ObjectState/> */}
+   {/* <ObjState/> */}
+   <ObjStateSingleHandleAlert/>
+   {/* <ArrayState/> */}
+   
   </React.StrictMode>
 )
