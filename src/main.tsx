@@ -43,8 +43,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
    {/* <ChangeText/> */}
    {/* <ObjectState/> */}
    {/* <ObjState/> */}
-   <ObjStateSingleHandleAlert/>
-   {/* <ArrayState/> */}
+   {/* <ObjStateSingleHandleAlert/> */}
+   <ArrayState/>
    
   </React.StrictMode>
 )
