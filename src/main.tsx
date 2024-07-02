@@ -13,6 +13,7 @@ import ObjectState from './components/state/test07.tsx'
 import ArrayState from './components/state/test08.tsx'
 import ObjState from './components/state/test07-1.tsx'
 import ObjStateSingleHandleAlert from './components/state/test07-2.tsx'
+import Declearative01 from './components/declearativelyUI/test01.tsx'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* <App /> */}
@@ -44,7 +45,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
    {/* <ObjectState/> */}
    {/* <ObjState/> */}
    {/* <ObjStateSingleHandleAlert/> */}
-   <ArrayState/>
+   {/* <ArrayState/> */}
+
+   {/* DeclearativeLy UI */}
+   <Declearative01/>
    
   </React.StrictMode>
 )
